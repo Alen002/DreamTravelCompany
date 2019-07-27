@@ -3,6 +3,10 @@ body {
     background-color: #FAFAFA;
 }
 
-i {
-    height: 200px;
+header {
+    display: flex;
+}
+
+.logo {
+    width: 150px;
 }
