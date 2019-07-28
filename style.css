@@ -1,12 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 body {
     font-family: 'Lato', Arial;
     background-color: #FAFAFA;
 }
 
-header {
-    display: flex;
+/*** HEADER ***/
+.logo {
+    width: 120px;
+    height:100px;
 }
 
-.logo {
-    width: 150px;
+nav ul {
+    list-style-type: none;
+    display: none; /* important */
 }
+
+a {
+    display: block;
+    background: #5588a3;
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    transition: font-size 1s ease,color 1s ease;
+}
+
+a:hover {
+    font-size:1.1em;
+    color: yellow;
+}
+
+.nav-container {
+    
+    display: flex;
+    flex-direction: row;
+    padding: 0 20px;
+    justify-content: space-between;
+}
+
+.nav-container img {
+    width: 100px;
+    align-self: center;
+}
+
+.bar {
+    width: 40px;
+    height: 2px;
+    margin: 10px;
+    border-bottom: 2px solid;
+    background: red;
+}
+
+.btn {
+    border: 2px solid;
+    display: inline-block;
+    padding: 2px;
+    align-self: center;
+}
+
+header {
+    min-height: 100v;
+}
+
+/*** End of Header ***/
