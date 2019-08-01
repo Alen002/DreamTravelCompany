@@ -16,7 +16,7 @@ body {
 }
 
 nav ul {
-    list-style-type: none;
+    *list-style-type: none;
     display: none; /* important */
 }
 
@@ -36,7 +36,7 @@ a:hover {
 }
 
 nav {
-    background-color: #68A29F;
+    background-color: #5588a3;/*#68A29F;*/
     position: fixed;
     width: 100%;
     z-index: 10px; /* Stacking box elements */
@@ -131,9 +131,18 @@ nav {
 /*** End of Header ***/
 
 
-.test {
-    color: red;
-    margin-bottom: 30px;
-    z-index: 3px;
-    display: flex;
+
+/** Desktop View **/
+
+/* screen-sizes 600px and higher */
+@media(min-width: 600px) { 
+   .nav-container {
+       display: none;
+   }
+   nav ul {
+       display: flex !important;
+       flex-direction: row;
+       list-style-type: none;
+       justify-content: center;
+   }
 }
