@@ -9,7 +9,7 @@ body {
     background-color: #FAFAFA;
 }
 
-/*** HEADER ***/
+/*** Start of header ***/
 .logo {
     width: 120px;
     height:100px;
@@ -27,7 +27,6 @@ a {
     color: white;
     text-decoration: none;
     font-size: 17px;
-    
 }
 
 a:hover {
@@ -128,7 +127,7 @@ nav {
     transition: font-size 1s ease,color 1s ease;
 }
 
-/*** End of Header ***/
+/*** End of header ***/
 
 
 /*** Start of section ***/
@@ -145,6 +144,7 @@ section ul {
     flex-direction: column;
     display: flex;
     margin-left: 20px;
+    padding:50px;
     list-style: none;
 }
 
@@ -187,10 +187,47 @@ section h1 {
 
 /*** End of section ***/
 
+/*** Start of destination display ***/
+.display {
+    background: white;
+    padding-top: 20px;
+}
+
+.display h1 {
+    text-align: center;
+    color: #00334;
+}
+
+.grid {
+    margin: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(400px, 1fr));
+    grid-gap: 1em;
+    align-items: center;
+    background: white;
+}
+
+.grid img {
+    width: 100%;
+    height: auto;
+}
+
+.grid img {
+  
+    -webkit-transition: all 0.5s ease;
+       -moz-transition: all 0.5s ease;
+        -ms-transition: all 0.5s ease;
+            transition: all 0.5s ease;
+  }
+  .grid img:hover {
+    width: 110%;
+    
+  }
+
+
+
 
 /***Start of desktop view ***/
-
-/* screen-sizes 600px and higher */
 @media(min-width: 600px) { 
    .nav-container {
        display: none;
@@ -217,4 +254,4 @@ section h1 {
         width: 50%;
     }
 }
-/*** End of desktop iew ***/
+/*** End of desktop view ***/
