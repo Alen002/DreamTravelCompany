@@ -184,9 +184,7 @@ section h1 {
     text-transform: uppercase;
 }
 
-
-
-
+/*** End of Section ***/
 
 
 /*** Desktop View ***/
@@ -201,6 +199,9 @@ section h1 {
        flex-direction: row;
        list-style-type: none;
        justify-content: center;
+   }
+   section ul li div {
+       margin-right: 50%;;
    }
 }
 /*** End of Desktop View ***/
