@@ -131,8 +131,65 @@ nav {
 /*** End of Header ***/
 
 
+/*** Start of Section ***/
+section {
+    min-height: 70vh;
+    background: url(/resources/sky.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* for the parallax effect */
+    
+}
 
-/** Desktop View **/
+section ul {
+    flex-direction: column;
+    display: flex;
+    margin-left: 20px;
+    list-style: none;
+}
+
+section ul li{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+section ul li div {
+    margin-left: 30px;
+    font-size: 20px;
+    color: white;
+    padding: 10px;
+}
+
+.icon {
+    /*font-size: 50px;*/
+    display: inline-block;
+    color: white;
+}
+
+.fa-dollar-sign {
+    font-size: 75px;
+}
+
+.fa-phone {
+    font-size: 50px;
+}
+
+.fa-plane {
+    font-size: 42px;
+}
+section h1 {
+    text-transform: uppercase;
+}
+
+
+
+
+
+
+/*** Desktop View ***/
 
 /* screen-sizes 600px and higher */
 @media(min-width: 600px) { 
@@ -146,3 +203,4 @@ nav {
        justify-content: center;
    }
 }
+/*** End of Desktop View ***/
