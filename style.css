@@ -1,4 +1,3 @@
-
 *{  
     margin: 0;   
     padding: 0;    
@@ -193,10 +192,16 @@ section h1 {
     background: #FAFAFA;
 }
 
+.display .grid article {
+    overflow: hidden;
+}
+
+
 .display h1 {
     text-align: center;
     color: #00334;
 }
+
 
 .grid {
     margin: 20px;
@@ -205,27 +210,17 @@ section h1 {
     grid-template-rows: 1fr;
     grid-gap: 1em;
     align-items: center;
-    
 }
 
 .grid img {
     width: 100%;
-    height: 350px;
+    height: 350px; 
 }
 
-.grid img {
-  
-    -webkit-transition: all 0.5s ease;
-       -moz-transition: all 0.5s ease;
-        -ms-transition: all 0.5s ease;
-            transition: all 0.5s ease;
+.grid img:hover {
+    transition: transform 1s ease;
+    transform:scale(2.5);
   }
-  .grid img:hover {
-    width: 105%;
-    
-  }
-
-
 
 
 /***Start of desktop view ***/
