@@ -74,7 +74,7 @@ header {
 
 header {
     min-height: 100vh;
-    background: url(/resources/beachFlip.jpg);
+    background: url(./resources/beachFlip.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -132,7 +132,7 @@ nav {
 /*** Start of section ***/
 section {
     min-height: 70vh;
-    background: url(/resources/sky.jpg);
+    background: url(./resources/sky.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
