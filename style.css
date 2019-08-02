@@ -189,8 +189,8 @@ section h1 {
 
 /*** Start of destination display ***/
 .display {
-    background: white;
     padding-top: 20px;
+    background: #FAFAFA;
 }
 
 .display h1 {
@@ -201,15 +201,16 @@ section h1 {
 .grid {
     margin: 20px;
     display: grid;
-    grid-template-columns: repeat(auto-fill,minmax(400px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    grid-template-rows: 1fr;
     grid-gap: 1em;
     align-items: center;
-    background: white;
+    
 }
 
 .grid img {
     width: 100%;
-    height: auto;
+    height: 350px;
 }
 
 .grid img {
@@ -220,7 +221,7 @@ section h1 {
             transition: all 0.5s ease;
   }
   .grid img:hover {
-    width: 110%;
+    width: 105%;
     
   }
 
