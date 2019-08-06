@@ -263,11 +263,6 @@ section h1 {
     font-size:40px;
     font-size-adjust: 30px;
    }
-
-   section {
-       background-attachment: fixed;
-   }
-   
 }
 
 @media(min-width: 1300px) { 
@@ -275,6 +270,9 @@ section h1 {
         font-size:55px;
         font-size-adjust: 20px;
        }
+       section {
+        background-attachment: fixed;
+    }
 }
 
 /*** End of desktop view ***/
