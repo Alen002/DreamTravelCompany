@@ -76,9 +76,8 @@ header {
     min-height: 100vh;
     background: url(./data/beachFlip.jpg);
     background-position: center;
-    background-size: cover;
+    background-size: 100%;
     background-repeat: no-repeat;
-    background-attachment: fixed; /* for the parallax effect */
     display: flex;
     flex-direction: column;
 }
@@ -134,9 +133,8 @@ section {
     min-height: 70vh;
     background: url(./data/sky.jpg);
     background-position: center;
-    background-size: cover;
+    background-size: 100%;
     background-repeat: no-repeat;
-    background-attachment: fixed; /* for the parallax effect */
 }
 
 section ul {
@@ -246,7 +244,7 @@ section h1 {
 /*** End of section about us ***/
 
 /***Start of desktop view ***/
-@media(min-width: 600px) { 
+@media (min-width: 600px) { 
    .nav-container {
        display: none;
    }
@@ -264,6 +262,9 @@ section h1 {
     font-size-adjust: 30px;
    }
 
+   section {
+       background-attachment: fixed;
+   }
    
 }
 
