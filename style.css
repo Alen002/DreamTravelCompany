@@ -77,6 +77,7 @@ header {
     background: url(./data/beachFlip.jpg);
     background-position: center;
     background-size: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
@@ -134,6 +135,7 @@ section {
     background: url(./data/sky.jpg);
     background-position: center;
     background-size: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 
