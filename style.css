@@ -188,7 +188,6 @@ section h1 {
 
 /*** Start of destination display ***/
 .display {
-    padding-top: 20px;
     background: #FAFAFA;
 }
 
@@ -196,15 +195,14 @@ section h1 {
     overflow: hidden;
 }
 
-
 .display h1 {
     text-align: center;
     color: #00334;
 }
 
-
 .grid {
-    margin: 20px;
+    margin: 0;
+    padding: 20px;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
     grid-template-rows: 1fr;
