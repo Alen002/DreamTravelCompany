@@ -37,7 +37,7 @@ nav {
     background-color: #5588a3;/*#68A29F;*/
     position: fixed;
     width: 100%;
-    z-index: 10px; /* Stacking box elements */
+    z-index: 10; /* Stacking box elements */
 }
 
 .nav-container {    
