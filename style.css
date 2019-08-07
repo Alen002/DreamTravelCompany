@@ -9,10 +9,6 @@ body {
 }
 
 /*** Start of header ***/
-.logo {
-    width: 120px;
-    height:100px;
-}
 
 nav ul {
     *list-style-type: none;
@@ -203,7 +199,7 @@ section h1 {
 .grid {
     display: grid;
     margin: 0;
-    padding: 10px;
+    padding: 5px;
     grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
     grid-template-rows: 1fr;
     grid-gap: 1em;
@@ -229,6 +225,7 @@ section h1 {
     overflow: hidden;
     align-content: center;
     font-size: 1em;
+    padding-bottom: 30px;
 }
 
 .aboutUs div {
@@ -238,10 +235,25 @@ section h1 {
     line-height: 1.6;
     transition: all 500ms;
 }
-
-
-
 /*** End of section about us ***/
+
+/*** Start of footer ***/
+footer {
+    background-color: #5588a3;/*#68A29F;*/
+    color: white;
+    position: fix;
+    height: 40px;
+    width: 100%;
+    z-index: 20; /* Stacking box elements */
+    text-align: center;
+    font-size: 17px;
+    padding-left: 10px;
+    padding-top: 20px;
+}
+
+
+
+/*** End of footer ***/
 
 /***Start of desktop view ***/
 @media (min-width: 600px) { 
