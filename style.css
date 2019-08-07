@@ -203,7 +203,7 @@ section h1 {
 .grid {
     display: grid;
     margin: 0;
-    padding: 30px;
+    padding: 20px !important;
     grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
     grid-template-rows: 1fr;
     grid-gap: 1em;
